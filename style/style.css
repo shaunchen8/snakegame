@@ -1,0 +1,120 @@
+@font-face {
+    font-family: hed;
+    src: url("../font/Righteous-Regular.ttf");
+}
+
+body{
+    font-family: hed;
+    color: black;
+    text-align: center;
+    overflow: hidden;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.GG{
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.arrows > * {
+    width: 100%;
+}
+
+.mid {
+    display: flex;
+    flex-direction: row;
+}
+.up{
+    transform: rotate(270deg);
+}
+
+.left{
+    transform: rotate(180deg);
+}
+
+.right{
+    padding: 0% 4%;
+}
+
+.down{
+    transform: rotate(90deg);
+}
+
+.arrows {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    padding: 1rem;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#container-highscore {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    font-size: larger;
+}
+
+
+canvas{
+    border: 3px solid;
+    border-color: black;
+    margin-bottom: 2%;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.active {
+    background-color: aqua;
+}
+
+#retryButton {
+    position: absolute;
+    transform: translate(calc(250px - 50%), -250px);
+
+}
+/*
+@media (max-width: 767px)
+{
+    button{
+        display: block;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    canvas{
+        width: 300px;
+        height: 300px;
+    }
+
+    img{
+        width: 50px;
+        height: 50px;
+    }
+
+
+}*/
